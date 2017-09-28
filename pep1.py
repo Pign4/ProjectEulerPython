@@ -7,6 +7,9 @@ from functools import reduce
 from operator import mul
 import time
 
+def range_sum(x):
+    return x * (x + 1) // 2
+
 # Sum All Multiples - one dividend
 def SAMod(div, top):
     ''' E.g. SAMod(3, 10)
@@ -15,7 +18,7 @@ def SAMod(div, top):
     in fact 3 + 6 + 9 (the only multiples of 3 below 11) = 18
     '''
     x = top // div
-    return div * x * (x + 1) // 2
+    return div * range_sum(x)
 
 # Sum All Multiples - multiple dividends
 def SAMmd(divs, top):

@@ -18,8 +18,6 @@ if __name__ == '__main__':
     start_time = time.time()
 
     n = 20
-    for _ in range(1000):
-        SNDR(n)
     print(SNDR(n))
 
     print("--- {} seconds ---".format(time.time() - start_time))

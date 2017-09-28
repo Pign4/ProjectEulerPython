@@ -20,7 +20,7 @@ def CLP(n):
                 return i
 
 # # This version is faster but it only works if the largest palindrome is 2*n digits long.
-# def largest_palindrome(n):
+# def CLP(n):
 #     M = 10**n
 #     m = 10**(n-1)
 #     for i in [int(str(x)+str(x)[::-1]) for x in range(M - 1, m - 1, -1)]:
