@@ -42,6 +42,6 @@ if __name__ == '__main__':
     print(SAMod(3, top) + SAMod(5, top) - SAMod(15, top))
 
     # general solution
-    print(SAMmd([3,5], top))
+    # print(SAMmd([3,5], top))
 
     print("--- {} seconds ---".format(time.time() - start_time))
