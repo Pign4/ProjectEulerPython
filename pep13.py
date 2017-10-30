@@ -1,5 +1,4 @@
-# What is the value of the first triangle number to have over five hundred divisors?
-
+# Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
 import time
 
 if __name__ == '__main__':
